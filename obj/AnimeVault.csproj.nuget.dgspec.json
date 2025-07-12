@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programms\\AnimeVault\\AnimeVault.csproj": {}
+    "D:\\Programms\\AnimeVault_main\\AnimeVault\\AnimeVault.csproj": {}
   },
   "projects": {
-    "D:\\Programms\\AnimeVault\\AnimeVault.csproj": {
+    "D:\\Programms\\AnimeVault_main\\AnimeVault\\AnimeVault.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programms\\AnimeVault\\AnimeVault.csproj",
+        "projectUniqueName": "D:\\Programms\\AnimeVault_main\\AnimeVault\\AnimeVault.csproj",
         "projectName": "AnimeVault",
-        "projectPath": "D:\\Programms\\AnimeVault\\AnimeVault.csproj",
+        "projectPath": "D:\\Programms\\AnimeVault_main\\AnimeVault\\AnimeVault.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Programms\\AnimeVault\\obj\\",
+        "outputPath": "D:\\Programms\\AnimeVault_main\\AnimeVault\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

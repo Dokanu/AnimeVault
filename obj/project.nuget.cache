@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HTuvTVQ4IGY=",
+  "dgSpecHash": "gwaJ2CjIlrw=",
   "success": true,
-  "projectFilePath": "D:\\Programms\\AnimeVault\\AnimeVault.csproj",
+  "projectFilePath": "D:\\Programms\\AnimeVault_main\\AnimeVault\\AnimeVault.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\avalonia\\11.2.1\\avalonia.11.2.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\avalonia.buildservices\\0.0.29\\avalonia.buildservices.0.0.29.nupkg.sha512",
