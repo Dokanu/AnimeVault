@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnimeVault")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aeedd4f557c9ced084cfc026042225c75d41cf3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnimeVault")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnimeVault")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

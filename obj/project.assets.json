@@ -2,11 +2,11 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Avalonia/11.1.0": {
+      "Avalonia/11.2.1": {
         "type": "package",
         "dependencies": {
           "Avalonia.BuildServices": "0.0.29",
-          "Avalonia.Remote.Protocol": "11.1.0",
+          "Avalonia.Remote.Protocol": "11.2.1",
           "MicroCom.Runtime": "0.11.0"
         },
         "compile": {
@@ -177,7 +177,7 @@
           }
         }
       },
-      "Avalonia.Remote.Protocol/11.1.0": {
+      "Avalonia.Remote.Protocol/11.2.1": {
         "type": "package",
         "compile": {
           "lib/net8.0/Avalonia.Remote.Protocol.dll": {
@@ -238,6 +238,54 @@
           }
         }
       },
+      "Irihi.Avalonia.Shared/0.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Irihi.Avalonia.Shared.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Irihi.Avalonia.Shared.dll": {}
+        }
+      },
+      "Irihi.Avalonia.Shared.Contracts/0.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Irihi.Avalonia.Shared.Contracts.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Irihi.Avalonia.Shared.Contracts.dll": {}
+        }
+      },
+      "Irihi.Ursa/1.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.1.1",
+          "Irihi.Avalonia.Shared": "0.3.0",
+          "Irihi.Avalonia.Shared.Contracts": "0.3.0"
+        },
+        "compile": {
+          "lib/net8.0/Ursa.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Ursa.dll": {}
+        }
+      },
+      "Irihi.Ursa.Themes.Semi/1.12.0": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.1.1",
+          "Irihi.Ursa": "1.12.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ursa.Themes.Semi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ursa.Themes.Semi.dll": {}
+        }
+      },
       "MicroCom.Runtime/0.11.0": {
         "type": "package",
         "compile": {
@@ -262,6 +310,18 @@
           "lib/net6.0/ReactiveUI.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Semi.Avalonia/11.2.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.2.1"
+        },
+        "compile": {
+          "lib/net8.0/Semi.Avalonia.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Semi.Avalonia.dll": {}
         }
       },
       "Splat/14.4.1": {
@@ -296,10 +356,10 @@
     }
   },
   "libraries": {
-    "Avalonia/11.1.0": {
-      "sha512": "tqD4Az6xnEa5INS0bduGuv0VFIWCxQ/kJT+yBT+KI8TsofJUYMFjc617rBoObEZoTNyIHiV58LBn6sRw/ht65g==",
+    "Avalonia/11.2.1": {
+      "sha512": "AyYhIN2A7bRwxp6BFHrIbXAHUFPXegzSMYwDrUnw1BzZs9ctwYTiCPCM5wbE2PXsEBwFDVJ/a2YHTOp56fSYAw==",
       "type": "package",
-      "path": "avalonia/11.1.0",
+      "path": "avalonia/11.2.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -307,7 +367,7 @@
         "Icon.png",
         "analyzers/dotnet/cs/Avalonia.Analyzers.dll",
         "analyzers/dotnet/cs/Avalonia.Generators.dll",
-        "avalonia.11.1.0.nupkg.sha512",
+        "avalonia.11.2.1.nupkg.sha512",
         "avalonia.nuspec",
         "build/Avalonia.Generators.props",
         "build/Avalonia.props",
@@ -317,6 +377,7 @@
         "build/AvaloniaItemSchema.xaml",
         "build/AvaloniaPrivateApis.targets",
         "build/AvaloniaRules.Project.xml",
+        "build/AvaloniaSingleProject.targets",
         "build/AvaloniaVersion.props",
         "buildTransitive/Avalonia.Generators.props",
         "buildTransitive/Avalonia.props",
@@ -326,6 +387,7 @@
         "buildTransitive/AvaloniaItemSchema.xaml",
         "buildTransitive/AvaloniaPrivateApis.targets",
         "buildTransitive/AvaloniaRules.Project.xml",
+        "buildTransitive/AvaloniaSingleProject.targets",
         "lib/net6.0/Avalonia.Base.dll",
         "lib/net6.0/Avalonia.Base.xml",
         "lib/net6.0/Avalonia.Controls.dll",
@@ -570,15 +632,15 @@
         "lib/netstandard2.0/Avalonia.ReactiveUI.xml"
       ]
     },
-    "Avalonia.Remote.Protocol/11.1.0": {
-      "sha512": "Jgv470tVeZRwLwivNGdcdEyQdWhe3bsDF0931L1PvvnLGotMaUPh6cvVZDRwLv7BVues+EA8e5wsicVATl6vMQ==",
+    "Avalonia.Remote.Protocol/11.2.1": {
+      "sha512": "aqEialxjir7DO/dOFf7BGN/yQ4/adSC5UuVfqBr/RUHOENSH6CqoHj8kmtmJxnuz7ESQFSB2+h1kLVnk5csiDw==",
       "type": "package",
-      "path": "avalonia.remote.protocol/11.1.0",
+      "path": "avalonia.remote.protocol/11.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "avalonia.remote.protocol.11.1.0.nupkg.sha512",
+        "avalonia.remote.protocol.11.2.1.nupkg.sha512",
         "avalonia.remote.protocol.nuspec",
         "lib/net6.0/Avalonia.Remote.Protocol.dll",
         "lib/net6.0/Avalonia.Remote.Protocol.xml",
@@ -646,6 +708,61 @@
         "logo.png"
       ]
     },
+    "Irihi.Avalonia.Shared/0.3.0": {
+      "sha512": "AsfGdYDYSat/SaQoVeVl36wQDe14xUH9iNIbBXTiJrBnyETLHd+POc9k9PMTp7EZYPf1nJEQGsmuvpMO0fspdw==",
+      "type": "package",
+      "path": "irihi.avalonia.shared/0.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "irihi.avalonia.shared.0.3.0.nupkg.sha512",
+        "irihi.avalonia.shared.nuspec",
+        "irihi.png",
+        "lib/netstandard2.0/Irihi.Avalonia.Shared.dll"
+      ]
+    },
+    "Irihi.Avalonia.Shared.Contracts/0.3.0": {
+      "sha512": "24YfNnf38snXtwU9cJlTLTOKdTQ3KAxCJua6Bv5BSDLDzgLB+Dss28BcRPK4HJZQLbyYIb37jlk2wAn89nfbUw==",
+      "type": "package",
+      "path": "irihi.avalonia.shared.contracts/0.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "irihi.avalonia.shared.contracts.0.3.0.nupkg.sha512",
+        "irihi.avalonia.shared.contracts.nuspec",
+        "irihi.png",
+        "lib/netstandard2.0/Irihi.Avalonia.Shared.Contracts.dll"
+      ]
+    },
+    "Irihi.Ursa/1.12.0": {
+      "sha512": "SpIV9VlFws30yTLstxHrfB0yrCfyL4hYlS8n5mX721XVhMkLcNdwmq9Sk9kqMn+jP0fLETSlJiRKQY6L6XwA3w==",
+      "type": "package",
+      "path": "irihi.ursa/1.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "irihi.png",
+        "irihi.ursa.1.12.0.nupkg.sha512",
+        "irihi.ursa.nuspec",
+        "lib/net8.0/Ursa.dll",
+        "lib/netstandard2.0/Ursa.dll"
+      ]
+    },
+    "Irihi.Ursa.Themes.Semi/1.12.0": {
+      "sha512": "TvmQBOkTnEe1CfSBjJSV1uGy3dGVqHgmkhmcJIEHZgNAcdjM2OSjI6zCt0UsBncvoQ6hYNeudIzF19dmii/3vg==",
+      "type": "package",
+      "path": "irihi.ursa.themes.semi/1.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "irihi.png",
+        "irihi.ursa.themes.semi.1.12.0.nupkg.sha512",
+        "irihi.ursa.themes.semi.nuspec",
+        "lib/netstandard2.0/Ursa.Themes.Semi.dll"
+      ]
+    },
     "MicroCom.Runtime/0.11.0": {
       "sha512": "MEnrZ3UIiH40hjzMDsxrTyi8dtqB5ziv3iBeeU4bXsL/7NLSal9F1lZKpK+tfBRnUoDSdtcW3KufE4yhATOMCA==",
       "type": "package",
@@ -707,6 +824,22 @@
         "reactiveui.nuspec"
       ]
     },
+    "Semi.Avalonia/11.2.1.9": {
+      "sha512": "dIxLkdrKC5V6QV0fIMfoRs/IcoGQ5qmbcG9GEvRlmbO80G243yrONlDU48Dl1F0Enn/sCfDwNTHW9GY1BtTAlw==",
+      "type": "package",
+      "path": "semi.avalonia/11.2.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "irihi.png",
+        "lib/net6.0/Semi.Avalonia.dll",
+        "lib/net8.0/Semi.Avalonia.dll",
+        "lib/netstandard2.0/Semi.Avalonia.dll",
+        "semi.avalonia.11.2.1.9.nupkg.sha512",
+        "semi.avalonia.nuspec"
+      ]
+    },
     "Splat/14.4.1": {
       "sha512": "Z1Mncnzm9pNIaIbZ/EWH6x5ESnKsmAvu8HP4StBRw+yhz0lzE7LCbt22TNTPaFrYLYbYCbGQIc/61yuSnpLidg==",
       "type": "package",
@@ -755,11 +888,14 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Avalonia >= 11.1.0",
+      "Avalonia >= 11.2.1",
       "Avalonia.Diagnostics >= 11.1.0",
       "Avalonia.Fonts.Inter >= 11.1.0",
       "Avalonia.ReactiveUI >= 11.1.0",
-      "Avalonia.Themes.Fluent >= 11.1.0"
+      "Avalonia.Themes.Fluent >= 11.1.0",
+      "Irihi.Ursa >= 1.12.0",
+      "Irihi.Ursa.Themes.Semi >= 1.12.0",
+      "Semi.Avalonia >= 11.2.1.9"
     ]
   },
   "packageFolders": {
@@ -814,7 +950,7 @@
         "dependencies": {
           "Avalonia": {
             "target": "Package",
-            "version": "[11.1.0, )"
+            "version": "[11.2.1, )"
           },
           "Avalonia.Diagnostics": {
             "target": "Package",
@@ -831,6 +967,18 @@
           "Avalonia.Themes.Fluent": {
             "target": "Package",
             "version": "[11.1.0, )"
+          },
+          "Irihi.Ursa": {
+            "target": "Package",
+            "version": "[1.12.0, )"
+          },
+          "Irihi.Ursa.Themes.Semi": {
+            "target": "Package",
+            "version": "[1.12.0, )"
+          },
+          "Semi.Avalonia": {
+            "target": "Package",
+            "version": "[11.2.1.9, )"
           }
         },
         "imports": [

@@ -1,0 +1,15 @@
+D:\Programms\AnimeVault\bin\Debug\net8.0\AnimeVault.deps.json
+D:\Programms\AnimeVault\bin\Debug\net8.0\AnimeVault.dll
+D:\Programms\AnimeVault\bin\Debug\net8.0\AnimeVault.pdb
+D:\Programms\AnimeVault\obj\Debug\net8.0\AnimeVault.csproj.AssemblyReference.cache
+D:\Programms\AnimeVault\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
+D:\Programms\AnimeVault\obj\Debug\net8.0\Avalonia\resources
+D:\Programms\AnimeVault\obj\Debug\net8.0\AnimeVault.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programms\AnimeVault\obj\Debug\net8.0\AnimeVault.AssemblyInfoInputs.cache
+D:\Programms\AnimeVault\obj\Debug\net8.0\AnimeVault.AssemblyInfo.cs
+D:\Programms\AnimeVault\obj\Debug\net8.0\AnimeVault.csproj.CoreCompileInputs.cache
+D:\Programms\AnimeVault\obj\Debug\net8.0\AnimeVault.sourcelink.json
+D:\Programms\AnimeVault\obj\Debug\net8.0\Avalonia\AnimeVault.dll
+D:\Programms\AnimeVault\obj\Debug\net8.0\Avalonia\AnimeVault.pdb
+D:\Programms\AnimeVault\obj\Debug\net8.0\refint\Avalonia\AnimeVault.dll
+D:\Programms\AnimeVault\obj\Debug\net8.0\ref\AnimeVault.dll

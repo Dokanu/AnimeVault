@@ -52,7 +52,7 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[11.1.0, )"
+              "version": "[11.2.1, )"
             },
             "Avalonia.Diagnostics": {
               "target": "Package",
@@ -69,6 +69,18 @@
             "Avalonia.Themes.Fluent": {
               "target": "Package",
               "version": "[11.1.0, )"
+            },
+            "Irihi.Ursa": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "Irihi.Ursa.Themes.Semi": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "Semi.Avalonia": {
+              "target": "Package",
+              "version": "[11.2.1.9, )"
             }
           },
           "imports": [
