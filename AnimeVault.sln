@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeVault", "AnimeVault\AnimeVault.csproj", "{8E6503D2-48C2-45EA-A9CF-D84D0296A24F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeVault.Android", "AnimeVault.Android\AnimeVault.Android.csproj", "{4D9DBFB0-9F3F-4EE7-8A46-621E7D908DE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeVault.Desktop", "AnimeVault.Desktop\AnimeVault.Desktop.csproj", "{12AF7B4F-F04A-40BA-8736-19ED52499FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeVault.iOS", "AnimeVault.iOS\AnimeVault.iOS.csproj", "{1DF7BA0B-81B0-49A8-BAE7-F71860D345D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeVault.Browser", "AnimeVault.Browser\AnimeVault.Browser.csproj", "{32D83D59-F2BA-42B2-A7A1-AFB6AA9CF2E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E6503D2-48C2-45EA-A9CF-D84D0296A24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6503D2-48C2-45EA-A9CF-D84D0296A24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6503D2-48C2-45EA-A9CF-D84D0296A24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6503D2-48C2-45EA-A9CF-D84D0296A24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D9DBFB0-9F3F-4EE7-8A46-621E7D908DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D9DBFB0-9F3F-4EE7-8A46-621E7D908DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D9DBFB0-9F3F-4EE7-8A46-621E7D908DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D9DBFB0-9F3F-4EE7-8A46-621E7D908DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12AF7B4F-F04A-40BA-8736-19ED52499FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12AF7B4F-F04A-40BA-8736-19ED52499FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12AF7B4F-F04A-40BA-8736-19ED52499FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12AF7B4F-F04A-40BA-8736-19ED52499FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF7BA0B-81B0-49A8-BAE7-F71860D345D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF7BA0B-81B0-49A8-BAE7-F71860D345D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF7BA0B-81B0-49A8-BAE7-F71860D345D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF7BA0B-81B0-49A8-BAE7-F71860D345D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D83D59-F2BA-42B2-A7A1-AFB6AA9CF2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D83D59-F2BA-42B2-A7A1-AFB6AA9CF2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D83D59-F2BA-42B2-A7A1-AFB6AA9CF2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D83D59-F2BA-42B2-A7A1-AFB6AA9CF2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6A0DF6B-6E1E-420A-ADFA-2FB4990AF0C7}
+	EndGlobalSection
+EndGlobal
