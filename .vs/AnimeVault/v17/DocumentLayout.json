@@ -3,12 +3,19 @@
   "WorkspaceRootPath": "D:\\Programms\\AnimeVault\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6C6BCC47-867F-41E3-BB5F-3E936AAA96B4}|AnimeVault.csproj|d:\\programms\\animevault\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{6C6BCC47-867F-41E3-BB5F-3E936AAA96B4}|AnimeVault.csproj|solutionrelative:views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C6BCC47-867F-41E3-BB5F-3E936AAA96B4}|AnimeVault.csproj|d:\\programms\\animevault\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{6C6BCC47-867F-41E3-BB5F-3E936AAA96B4}|AnimeVault.csproj|solutionrelative:app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C6BCC47-867F-41E3-BB5F-3E936AAA96B4}|AnimeVault.csproj|d:\\programms\\animevault\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{6C6BCC47-867F-41E3-BB5F-3E936AAA96B4}|AnimeVault.csproj|solutionrelative:views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{F2662814-D1B0-48E0-93DD-85938D6A9D66}|..\\AnimeVault.Desktop\\AnimeVault.Desktop.csproj|d:\\programms\\animevault.desktop\\animevault.desktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C6BCC47-867F-41E3-BB5F-3E936AAA96B4}|AnimeVault.csproj|d:\\programms\\animevault\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{6C6BCC47-867F-41E3-BB5F-3E936AAA96B4}|AnimeVault.csproj|solutionrelative:views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +33,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "D:\\Programms\\AnimeVault\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.axaml",
+              "ToolTip": "D:\\Programms\\AnimeVault\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-12T16:48:58.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnimeVault.Desktop",
+              "DocumentMoniker": "D:\\Programms\\AnimeVault.Desktop\\AnimeVault.Desktop.csproj",
+              "RelativeDocumentMoniker": "..\\AnimeVault.Desktop\\AnimeVault.Desktop.csproj",
+              "ToolTip": "D:\\Programms\\AnimeVault.Desktop\\AnimeVault.Desktop.csproj",
+              "RelativeToolTip": "..\\AnimeVault.Desktop\\AnimeVault.Desktop.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-12T16:45:39.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "App.axaml",
               "DocumentMoniker": "D:\\Programms\\AnimeVault\\App.axaml",
               "RelativeDocumentMoniker": "App.axaml",
@@ -38,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainView.axaml",
               "DocumentMoniker": "D:\\Programms\\AnimeVault\\Views\\MainView.axaml",
               "RelativeDocumentMoniker": "Views\\MainView.axaml",
